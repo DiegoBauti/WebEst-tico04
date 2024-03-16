@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css" 
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#line">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boleto">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="video">
+        <div class="overlay">
+            <div class="contenedor video-contenido">
+                <h2>Rock & EDM Festival</h2>
+                <p>Enero 2024 Ancón,Lima</p>
+            </div>
+        </div>
+        <video autoplay loop muted>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.webm" type="video/webm">
+            <source src="video/concierto.ogg" type="video/ogg">
+    </video>
+    </section>
+
+    <section class="contenedor sobre-festival">
+            <picture class="imagen">
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img width="200" height="300" loading="lazy" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+            <div class="contenido-festival">
+                <h2>Rock & EDM Festival</h2>
+                <p class="fecha">Enero 2024 Ancón, Lima</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto.
+                    Architecto perspiciatis maxime tenetur ex nostrum libero nulla necessitatibus,
+                    ut fuga voluptate vel? Perferendis eligendi necessitatibus ut laudantium? Nemo, rem.
+                </p>
+            </div>
+    </section>
+    <section id="line" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+           
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--escenario-contenedor-->
+        <p class="dia">Sábado 22</p>
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--escenario-contenedor-->
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-img"></ul>
+    </section>
+    
+    <section id="boleto" class="boleto bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor contenido-boleto">
+            
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <div class="pase-footer">
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <div class="pase-footer">
+                    <p>$180</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="pie-pagina">
+        <p>Rock & EDM Festival.Todos Los Derechos Reservados</p>
+    </footer>
+
+    <!--SCRIPT-->
+    <script src="src/js/app.js"></script>
+</body>
+</html>

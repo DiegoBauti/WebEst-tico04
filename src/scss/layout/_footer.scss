@@ -1,0 +1,12 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.pie-pagina{
+    background-color: v.$rosa;
+    padding: 1rem;
+    p{
+        margin: 0;
+        color: v.$blanco;
+        text-align: center;
+    }
+}
